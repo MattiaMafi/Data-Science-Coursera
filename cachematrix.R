@@ -43,6 +43,7 @@ cacheSolve <- function(x, ...) {
 
 
 
-Matrix_test <- makeCacheMatrix(matrix(rnorm(9),3,3))
+
+Matrix_test <- makeCacheMatrix(matrix(rnorm(25),5,5))
 Matrix_test$get()
 cacheSolve(Matrix_test)
